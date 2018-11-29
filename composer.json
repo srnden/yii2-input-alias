@@ -1,0 +1,30 @@
+{
+  "name": "srnden/yii2-input-alias",
+  "description": "Yii2 input alias widget.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "widget"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Den A",
+      "email": "spacerangerniko@yandex.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "srnden\\inputalias\\": "src"
+    }
+  }
+}
